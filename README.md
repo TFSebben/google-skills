@@ -61,6 +61,7 @@ If `npx` is not available in your environment, install
   - [**Migrating from Gemini API in AI Studio to Agent Platform**](./skills/cloud/agent-platform-migrate-from-ai-studio)
   - [**Skill Registry**](./skills/cloud/agent-platform-skill-registry)
   - [**Troubleshoot GKE TPU multi-slice hangs with the MXLA Hang Analyzer**](./skills/cloud/gke-ai-troubleshooting-tpu-mxla-hang)
+  - [**Troubleshoot GKE TPU performance degradation with ML Diagnostics Workload Monitoring**](./skills/cloud/gke-ai-troubleshooting-tpu-performance-degradation)
 - **Infrastructure**
   - [**Cloud Storage Basics**](./skills/cloud/google-cloud-storage-basics)
   - [**Cloud Storage Bucket Architect**](./skills/cloud/google-cloud-storage-bucket-architect)
