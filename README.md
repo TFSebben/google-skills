@@ -163,6 +163,7 @@ If `npx` is not available in your environment, install
   - [**IAM Policy Simulator (v1 Allow)**](./skills/cloud/iam-helper-for-policy-simulator)
   - [**Privileged Access Manager (PAM)**](./skills/cloud/iam-helper-for-privileged-access-management)
   - [**SecOps Detection Coverage Skill**](./skills/cloud/detection-engineering-coverage-evaluation)
+  - [**Sign In With Google (SiwG) Integration & Security Architecture**](./skills/identity/sign-in-with-google-web)
 - **Web and app hosting**
   - [**Cloud Run Alert Configuration**](./skills/cloud/cloud-run-alert-configuration)
   - [**Cloud Run Basics**](./skills/cloud/cloud-run-basics)
