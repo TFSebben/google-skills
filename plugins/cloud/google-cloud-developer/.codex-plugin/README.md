@@ -1,73 +1,15 @@
 # Google Cloud Developer plugin
 
-The `google-cloud-developer` plugin equips AI coding agents with foundational
-skills, safety guardrails, and live documentation grounding for building on
-Google Cloud.
+The `google-cloud-developer` plugin equips Codex agent with foundational skills,
+safety guardrails, and live documentation grounding for building on Google
+Cloud.
 
-Built on the open [Agent Plugins specification](https://agent-plugins.org/),
-this plugin bundles curated Agent Skills, routing rules, and configuration for
+This plugin bundles curated Agent Skills, routing rules, and configuration for
 the **Developer Knowledge MCP server** into a single portable package.
 
 --------------------------------------------------------------------------------
 
-## Installation
-
-### Antigravity CLI
-
-1.  Install the plugin directly via the CLI using its path in the Google Agent
-    Skills repository:
-
-    ```bash
-    agy plugin install https://github.com/google/skills/plugins/cloud/google-cloud-developer
-    ```
-
-1.  Enable the Developer Knowledge API in your Google Cloud project by using the
-    gcloud CLI:
-
-    ```bash
-    gcloud services enable developerknowledge.googleapis.com --project=<YOUR_PROJECT_ID>
-    ```
-
-### Claude Code
-
-1.  Add the Google plugins marketplace, then install the plugin:
-
-    ```bash
-    claude plugin marketplace add google/skills
-    claude plugin install google-cloud-developer@google-plugins
-    ```
-
-1.  Enable the Developer Knowledge API in your Google Cloud project by using the
-    gcloud CLI:
-
-    ```bash
-    gcloud services enable developerknowledge.googleapis.com --project=<YOUR_PROJECT_ID>
-    ```
-
-1.  Create an API key for the Developer Knowledge API by following the
-    instructions
-    [Create and secure the API key](https://developers.google.com/knowledge/quickstart#create-secure-key).
-    Save the key you create in a secure location.
-
-1.  Export the API key to your environment before starting Claude Code:
-
-    ```bash
-    export DEVELOPERKNOWLEDGE_API_KEY=<YOUR_API_KEY>
-    ```
-
-    > [!NOTE] The `DEVELOPERKNOWLEDGE_API_KEY` environment variable needs to be
-    > set in the environment before you start Claude Code. You may consider
-    > adding this export to your shell's startup script (e.g. `.bashrc`,
-    > `.zshrc`) for convenience.
-
-### Codex CLI
-
-1.  Add the Google plugins marketplace, then install the plugin:
-
-    ```bash
-    codex plugin marketplace add google/skills
-    codex plugin add google-cloud-developer@google-plugins
-    ```
+## Setup
 
 1.  Enable the Developer Knowledge API in your Google Cloud project by using the
     gcloud CLI:
