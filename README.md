@@ -21,7 +21,7 @@ If `npx` is not available in your environment, install
 
 <!-- BEGIN SKILLS -->
 - **Getting started with Google Cloud**
-  - [**Authenticating to Google Cloud**](./skills/cloud/google-cloud-recipe-auth)
+  - [**Authenticating and Authorizing to Google Cloud (IAM)**](./skills/cloud/google-cloud-recipe-auth)
   - [**Google Cloud Recipe: Foundation Builder**](./skills/cloud/google-cloud-recipe-foundation-builder)
   - [**Onboarding to Google Cloud**](./skills/cloud/google-cloud-recipe-onboarding)
 - **Multi-product solution skills**
@@ -153,18 +153,18 @@ If `npx` is not available in your environment, install
   - [**GKE Platform Security**](./skills/cloud/gke-platform-security)
   - [**GKE Workload Identity Federation Troubleshooting Skill**](./skills/cloud/gke-workload-identity)
   - [**GKE Workload Security**](./skills/cloud/gke-workload-security)
-  - [**Google Cloud IAM Access Troubleshooter & Remediation Orchestrator**](./skills/cloud/iam-helper-for-troubleshooting)
-  - [**Google Cloud Security Command Center Query Skill**](./skills/cloud/google-cloud-scc-query)
   - [**Google Cloud Security Command Center Remediation**](./skills/cloud/google-cloud-scc-remediation)
   - [**Google SecOps Case Management Skill for AI Agents**](./skills/cloud/secops-cases)
   - [**Google SecOps Detection Engineering Skill**](./skills/cloud/secops-detection-engineering)
   - [**Google SecOps Incident & Entity Investigation Skill**](./skills/cloud/secops-investigate)
   - [**Google SecOps Security Alert Triage Specialist**](./skills/cloud/secops-triage)
   - [**Google SecOps Threat Hunting Skill**](./skills/cloud/secops-hunt)
+  - [**IAM Access Troubleshooter & Remediation Orchestrator on Google Cloud**](./skills/cloud/iam-helper-for-troubleshooting)
   - [**IAM Helper for Policy Management**](./skills/cloud/iam-helper-for-policy-management)
   - [**IAM Policy Simulator (v1 Allow)**](./skills/cloud/iam-helper-for-policy-simulator)
   - [**Privileged Access Manager (PAM)**](./skills/cloud/iam-helper-for-privileged-access-management)
   - [**SecOps Detection Coverage Skill**](./skills/cloud/detection-engineering-coverage-evaluation)
+  - [**Security Command Center Query Skill on Google Cloud**](./skills/cloud/google-cloud-scc-query)
   - [**Sign In With Google (SiwG) Integration & Security Architecture**](./skills/identity/sign-in-with-google-web)
 - **Web and app hosting**
   - [**Cloud Run Alert Configuration**](./skills/cloud/cloud-run-alert-configuration)
